@@ -1,0 +1,12 @@
+.movie-contrainer {
+  img {
+    cursor: pointer;
+    transition: transform 0.2s;
+    margin: 1.8em;
+    border-radius: 10px;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}
