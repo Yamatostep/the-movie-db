@@ -1,18 +1,44 @@
 .movie-detail {
-  background: rgba(0, 0, 0, 0.85);
+	margin-top: 10px;
+	background: rgba(0, 0, 0, 0.7);
+	max-width: 800px !important;
+	padding: 1em;
 
-  .poster-contrainer {
-    .poster {
-      width: 100%;
-    }
-  }
+	.poster-contrainer {
+		.poster {
+			width: 100%;
+			padding: 0 1em 0 1em;
+		}
+	}
 
-  .nopadding {
-    padding: 0;
-  }
+	.meta-data-container {
+		padding: 0 1em 8.6em 1em;
 
-  .row {
-    margin-left: -15px;
-    margin-right: -15px;
-  }
+		h1 {
+			color: #00fc87;
+		}
+
+		.additional-details {
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			margin-top: 35px;
+			width: 100%;
+		}
+
+		.meta-data {
+			display: block;
+			color: #00fc87;
+			font-size: 1.6em;
+		}
+	}
+
+	.nopadding {
+		padding: 0;
+	}
+
+	.row {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
 }
